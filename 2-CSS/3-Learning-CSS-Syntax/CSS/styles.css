@@ -1,4 +1,37 @@
+/************TAG SELECTOR***********/
+body {
+  background-color: #F9F2ED;
+}
+
+p{
+  color: #F87474;
+}
 
 h1{
-  color: #8CC0DE;
+  color: #FFB562;
+  font-size: 50px;
+
+}
+
+img:hover{
+  border-radius: 100%;
+}
+/************CLASS SELECTOR***********/
+
+.melon{
+  background-color: #FFB562;
+  border-radius: 10%;
+
+}
+.watermelon{
+  background-color: #3AB0FF;
+}
+
+.circular{
+  border-radius: 30%;
+}
+
+/************ID SELECTOR***********/
+#heading{
+  color: #F87474;
 }
