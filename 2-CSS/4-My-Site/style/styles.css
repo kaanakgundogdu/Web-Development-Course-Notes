@@ -1,12 +1,22 @@
 body {
-  background-color: #F1E1A6;
+  background-color: #F0FFC2;
+
   margin: 0;
   text-align: center;
   font-family: 'Handlee', cursive;
 }
-p{
-  font-size: 30px;
+
+P{
+  font-size: 20px;
+
 }
+
+.sub-title{
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
 h1 {
   font-size: 50px;
 
@@ -20,6 +30,12 @@ h2 {
 
 h3 {
   font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+
+}
+
+.project-button{
+  color: red;
 }
 
 .top-container {
@@ -27,15 +43,6 @@ h3 {
   padding-top: 100px;
 }
 
-.middle-container {
-  height: 200px;
-  width: 200px;
-}
-
-.bottom-container {
-  height: 200px;
-  width: 200px;
-}
 
 .top-cloud {
   position: absolute;
