@@ -1,5 +1,5 @@
 body {
-  background-color: #97DBAE;
+  background-color: #F1E1A6;
   margin: 0;
   text-align: center;
   font-family: 'Handlee', cursive;
@@ -22,20 +22,17 @@ h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
-.topContainer {
-  background-color: #F1E1A6;
+.top-container {
   position: relative;
   padding-top: 100px;
 }
 
-.middleContainer {
-  background-color: #BFFFF0;
+.middle-container {
   height: 200px;
   width: 200px;
 }
 
-.bottomContainer {
-  background-color: #F4BBBB;
+.bottom-container {
   height: 200px;
   width: 200px;
 }
