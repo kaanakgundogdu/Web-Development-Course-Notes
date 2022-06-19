@@ -18,8 +18,8 @@ P{
 }
 
 h1 {
-  font-size: 50px;
-
+  font-size: 5.625rem; /* not relative to the parent*/
+  /* font-size: 5.625em;  */ /*relative to the parent*/
   margin-top: 0;
   font-family: 'Sacramento', cursive;
 }
