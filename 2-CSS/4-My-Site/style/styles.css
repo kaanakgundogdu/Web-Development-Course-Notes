@@ -1,5 +1,4 @@
 body {
-  background-color: #F0FFC2;
 
   margin: 0;
   text-align: center;
@@ -14,18 +13,23 @@ p{
 h1 {
   font-size: 5.625rem; /* not relative to the parent*/
   /* font-size: 5.625em;  */ /*relative to the parent*/
-  margin-top: 50px;
+  margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  line-height: 3;
 }
 
 h2 {
   font-size: 2.5rem;
   font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
 }
 
 h3 {
   font-size: 40px;
   font-family: 'Montserrat', sans-serif;
+  color: #11999E;
 
 }
 
@@ -34,10 +38,11 @@ h3 {
 }
 
 .top-container {
+  background-color: #F7ECDE;
+
   position: relative;
   padding-top: 100px;
 }
-
 
 .top-cloud {
   position: absolute;
@@ -49,4 +54,9 @@ h3 {
   position: absolute;
   left: 300px;
   bottom: 300px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
 }
