@@ -55,8 +55,16 @@ h3 {
   left: 300px;
   bottom: 300px;
 }
-
+.profile{
+  width: 60%;
+  margin: 10px auto 10px auto;
+}
 .skill-row{
   width: 50%;
-  margin: 100px auto 100px auto;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+.computer-image{
+  width: 25%;
 }
