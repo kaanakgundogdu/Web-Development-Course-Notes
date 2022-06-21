@@ -1,18 +1,18 @@
 body {
-
   margin: 0;
   text-align: center;
   font-family: 'Handlee', cursive;
 }
 
-p{
-  font-size: 30px;
+p {
+  font-size: 20px;
 }
 
-
 h1 {
-  font-size: 5.625rem; /* not relative to the parent*/
-  /* font-size: 5.625em;  */ /*relative to the parent*/
+  font-size: 5.625rem;
+  /* not relative to the parent*/
+  /* font-size: 5.625em;  */
+  /*relative to the parent*/
   margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
   color: #66BFBF;
@@ -27,21 +27,9 @@ h2 {
 }
 
 h3 {
-  font-size: 40px;
+  font-size: 25px;
   font-family: 'Montserrat', sans-serif;
   color: #11999E;
-
-}
-
-.project-button{
-  color: red;
-}
-
-.top-container {
-  background-color: #F7ECDE;
-
-  position: relative;
-  padding-top: 100px;
 }
 
 .top-cloud {
@@ -55,22 +43,56 @@ h3 {
   left: 300px;
   bottom: 300px;
 }
-.profile{
-  width: 60%;
-  margin: 10px auto 10px auto;
+
+.project-button {
+  color: red;
 }
-.skill-row{
+
+.top-container {
+  background-color: #F7ECDE;
+  position: relative;
+  padding-top: 100px;
+}
+
+.profile {
+  width: 60%;
+  margin: 30px auto 30px auto;
+}
+
+.skill-row {
   width: 50%;
-  margin: 50px auto 50px auto;
+  margin: 100px auto 100px auto;
   text-align: left;
   line-height: 1.5;
 }
-.computer-image{
+
+.computer-image {
   width: 25%;
+  float: left;
+  margin-right: 30px;
 }
-.quiz-image{
+
+.graph-image {
   width: 25%;
+  float: right;
+  margin-left: 30px;
 }
-.graph-image{
+
+.quiz-image {
   width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.anime-recom {
+  clear: left;
+}
+
+.gameplay-time {
+  clear: right;
+  text-align: right;
+}
+
+.quiz-game {
+  clear: left;
 }
