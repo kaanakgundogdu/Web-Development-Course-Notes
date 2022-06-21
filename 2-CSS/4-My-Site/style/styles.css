@@ -63,8 +63,14 @@ h3 {
   width: 50%;
   margin: 50px auto 50px auto;
   text-align: left;
-  line-height: 2;
+  line-height: 1.5;
 }
 .computer-image{
+  width: 25%;
+}
+.quiz-image{
+  width: 25%;
+}
+.graph-image{
   width: 25%;
 }
