@@ -50,6 +50,10 @@ a:hover{
   color: #EF9F9F;
 }
 
+.sub-title{
+  padding-bottom: 350px;
+}
+
 .project-button {
   color: red;
 }
@@ -122,6 +126,7 @@ a:hover{
 .copyright{
   color: #FFAFAF;
   font-size: 1rem;
+  padding: 20px 0;
 }
 
 
