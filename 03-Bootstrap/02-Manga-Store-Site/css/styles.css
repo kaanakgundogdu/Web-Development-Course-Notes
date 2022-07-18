@@ -9,6 +9,13 @@ h1 {
   font-weight: 900;
 }
 
+h2 {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+}
+
 h3 {
   /* Montserrat Bold = 700 */
   font-weight: 700;
@@ -44,7 +51,7 @@ h3 {
   font-family: "Montserrat-Light;"
 }
 
-.downloa-btn {
+.download-btn {
   margin: 15% 3% 5% 0;
 }
 
@@ -53,7 +60,7 @@ h3 {
   /* transform: rotate(20deg); */
 }
 
-.features-row {
+#features {
   padding: 7% 15%;
 }
 
@@ -73,4 +80,31 @@ h3 {
 
 .features-text {
   color: #8f8f8f;
+}
+
+#testimonials {
+
+  text-align: center;
+  background-color: #94B3FD;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 35%;
+  /* border-radius: 15%; */
+  margin: 20px;
+}
+
+#press {
+  background-color: #94B3FD;
+  text-align: center;
+  padding-bottom: 5%;
+}
+.press-logo{
+  width:15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
 }
