@@ -27,8 +27,8 @@ h3 {
   color: #fff;
 }
 
-.my_container {
-  padding: 3% 15%;
+.title_container {
+  padding: 3% 15% 7%;
 }
 
 .navbar {
@@ -57,11 +57,19 @@ h3 {
 
 .title-image {
   width: 60%;
-  /* transform: rotate(20deg); */
+  transform: rotate(10deg);
+  position: absolute;
+  right: 20%;
+}
+.positioning{
+  position: relative;
 }
 
 #features {
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+
 }
 
 .feature-box {
