@@ -1,36 +1,37 @@
 body {
   font-family: "Montserrat";
+  text-align: center;
 }
 
-h1 {
+h1,h2,h3,h4,h5,h6 {
+  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+
+}
+
+.big-heading{
   font-family: 'Montserrat-Black, sans-serif';
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
 }
 
-h2 {
-  font-weight: 700;
+.section-heading{
   font-size: 3rem;
   line-height: 1.5;
-  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 }
 
-h3 {
-  /* Montserrat Bold = 700 */
-  font-weight: 700;
-  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+.container-fluid {
+  padding: 7% 15%;
 }
-
-#title {
+.colored-section{
   background-color: #94B3FD;
   color: #fff;
 }
 
-.title_container {
-  padding: 3% 15% 7%;
+.notcolored-section{
+  background-color: #fff;
 }
-
 .navbar {
   padding: 0 0 4.5rem;
 }
@@ -55,6 +56,15 @@ h3 {
   margin: 15% 3% 5% 0;
 }
 
+
+/*TITLE SECTION*/
+
+#title .container-fluid{
+  padding: 3% 15% 8%;
+  text-align: left;
+
+}
+
 .title-image {
   width: 60%;
   transform: rotate(10deg);
@@ -65,15 +75,16 @@ h3 {
   position: relative;
 }
 
+/*FEATURES*/
+
 #features {
-  padding: 7% 15%;
-  background-color: #fff;
   position: relative;
 
 }
-
+.feature-title{
+  font-size: 1.5rem;
+}
 .feature-box {
-  text-align: center;
   padding: 5%;
 }
 
@@ -89,12 +100,11 @@ h3 {
 .features-text {
   color: #8f8f8f;
 }
+/*TESTIMONIAL*/
 
-#testimonials {
-
-  text-align: center;
-  background-color: #94B3FD;
-  color: #fff;
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .testimonial-image {
@@ -104,8 +114,6 @@ h3 {
 }
 
 #press {
-  background-color: #94B3FD;
-  text-align: center;
   padding-bottom: 5%;
 }
 .press-logo{
@@ -113,17 +121,33 @@ h3 {
   margin: 20px 20px 50px;
 }
 
-.carousel-item{
-    padding: 7% 15%;
-}
+
+/*PRICING*/
+
 #pricing{
   padding: 100px;
-  text-align: center;
 }
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 .pricing-column{
   padding: 3% 2%;
 }
 
+/*FOOTER*/
+
+.footer-btn{
+  margin: 8% 3% 3% 0;
+}
+
+
+.social-icon{
+
+  margin: 20px 10px;
+}
 
 @media (max-width:1028px) {
   #title{
