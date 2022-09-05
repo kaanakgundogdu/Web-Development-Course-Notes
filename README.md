@@ -1,5 +1,5 @@
-# Web-Development-Course-Notes
-My Web Development Bootcamp Course notes. [Course link](https://www.udemy.com/course/the-complete-web-development-bootcamp/)
+# Web Development Course Notes
+My Web Development Bootcamp notes. [Course link](https://www.udemy.com/course/the-complete-web-development-bootcamp/)
 <br>
 <br>
 
