@@ -14,7 +14,7 @@ mailchimp.setConfig({
 //*****************************ENTER YOUR API KEY HERE******************************
     apiKey: "",
 //*****************************ENTER YOUR API KEY PREFIX HERE i.e.THE SERVER******************************
-    server: "us11"
+    server: ""
 });
 
 
@@ -27,6 +27,8 @@ app.post("/",function(req,res){
     const firstName=req.body.fName
     const lastName=req.body.lName
     const email=req.body.email
+    
+    /*******************PUT YOUR LIST ID HERE**************************/
     const listId = ""
 
     const subscribingUser = {
@@ -84,5 +86,3 @@ app.listen(3000,function(){
     const jsonData= JSON.stringify(data);
     
  */
-
-    
