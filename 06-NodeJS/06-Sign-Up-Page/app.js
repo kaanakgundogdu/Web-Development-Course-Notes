@@ -12,9 +12,9 @@ app.use(bodyParser.urlencoded({extended:true}))
 
 mailchimp.setConfig({
 //*****************************ENTER YOUR API KEY HERE******************************
-    apiKey: "",
+    apiKey: "-us11",
 //*****************************ENTER YOUR API KEY PREFIX HERE i.e.THE SERVER******************************
-    server: ""
+    server: "us11"
 });
 
 
@@ -27,7 +27,7 @@ app.post("/",function(req,res){
     const firstName=req.body.fName
     const lastName=req.body.lName
     const email=req.body.email
-    
+
     /*******************PUT YOUR LIST ID HERE**************************/
     const listId = ""
 
@@ -48,13 +48,12 @@ app.post("/",function(req,res){
         }
         });
         //If all goes well logging the contact's id
-            res.sendFile(__dirname + "/success.html")
+        res.sendFile(__dirname + "/success.html")
             console.log(
         `Successfully added contact as an audience member. The contact's id is ${
             response.id
-            }.`
-        );
-        }
+            }.`)
+    };
     run().catch(e => res.sendFile(__dirname + "/failure.html"));
 
 
@@ -63,26 +62,3 @@ app.post("/",function(req,res){
 app.listen(3000,function(){
     console.log("Server is running on port 3000");
 })
-
-
-
-
-
-/**
- * 
-    const data= {
-        members:[
-            {
-                email_address:email,
-                status: "subscribed",
-                merge_fields:{
-                    FNAME:firstName,
-                    LNAME:lastName
-                }
-            }
-        ]
-    };
-    
-    const jsonData= JSON.stringify(data);
-    
- */
