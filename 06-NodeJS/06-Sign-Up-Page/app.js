@@ -12,9 +12,9 @@ app.use(bodyParser.urlencoded({extended:true}))
 
 mailchimp.setConfig({
 //*****************************ENTER YOUR API KEY HERE******************************
-    apiKey: "-us11",
+    apiKey: "",
 //*****************************ENTER YOUR API KEY PREFIX HERE i.e.THE SERVER******************************
-    server: "us11"
+    server: ""
 });
 
 
@@ -29,7 +29,7 @@ app.post("/",function(req,res){
     const email=req.body.email
 
     /*******************PUT YOUR LIST ID HERE**************************/
-    const listId = ""
+    const listId = "28fe32de19"
 
     const subscribingUser = {
         firstName: firstName,
@@ -59,6 +59,12 @@ app.post("/",function(req,res){
 
 });
 
+app.post("/failure",function(req,res){
+    res.redirect("/");
+});
+app.post("/success",function(req,res){
+    res.redirect("/");
+});
 app.listen(3000,function(){
     console.log("Server is running on port 3000");
 })
