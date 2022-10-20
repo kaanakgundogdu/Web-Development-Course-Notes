@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({extended:true}))
 
 mailchimp.setConfig({
 //*****************************ENTER YOUR API KEY HERE******************************
-    apiKey: "-us11",
+    apiKey: "a8067258e09dfb3aebe39980da97798f-us11",
 //*****************************ENTER YOUR API KEY PREFIX HERE i.e.THE SERVER******************************
     server: "us11"
 });
@@ -29,7 +29,7 @@ app.post("/",function(req,res){
     const email=req.body.email
 
     /*******************PUT YOUR LIST ID HERE**************************/
-    const listId = ""
+    const listId = "28fe32de19"
 
     const subscribingUser = {
         firstName: firstName,
