@@ -12,9 +12,9 @@ app.use(bodyParser.urlencoded({extended:true}))
 
 mailchimp.setConfig({
 //*****************************ENTER YOUR API KEY HERE******************************
-    apiKey: "-us11",
+    apiKey: "",
 //*****************************ENTER YOUR API KEY PREFIX HERE i.e.THE SERVER******************************
-    server: "us11"
+    server: ""
 });
 
 
